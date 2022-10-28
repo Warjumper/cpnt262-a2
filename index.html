@@ -1,14 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/main.css">
   <script src="js/mainscript.js" defer></script>
-  <title>if this then that</title>
+  <title>Dog This Dog That</title>
 </head>
+
 <body>
-  
+  <form action="">
+    <fieldset>
+      <legend>Choose your favorite dog breed</legend>
+
+      <!-- breed 1 -->
+      <input type="radio" id="dog1" name="favoriteBreed" value="Border Collie">
+      <label for="Border Collie">Border Collie</label><br>
+
+      <!-- breed 2 -->
+      <input type="radio" id="dog2" name="favoriteBreed" value="Pug">
+      <label for="Pug">Pug</label><br>
+
+      <!-- breed 3 -->
+      <input type="radio" id="dog3" name="favoriteBreed" value="German Shepherd">
+      <label for="German Shepard">German Shepherd</label><br>
+
+      <!-- breed 4 -->
+      <input type="radio" id="dog4" name="favoriteBreed" value="Terrier">
+      <label for="Terrier">Terrier</label><br>
+
+      <!-- breed 5 -->
+      <input type="radio" id="dog5" name="favoriteBreed" value="Retriever">
+      <label for="Retriever">Retriever</label><br>
+
+      <!-- breed 6 -->
+      <input type="radio" id="dog6" name="favoriteBreed" value="Corgi">
+      <label for="Corgi">Corgi</label><br>
+
+      <button type="submit">View a puppy!</button>
+    </fieldset>
+    
+    <h2><output id="output"></output></h2>
+  </form>
+      
+  <img class="image" src="images/puppies-curious.jpeg" alt="Puppies looking curiously">
+
 </body>
+
 </html>
