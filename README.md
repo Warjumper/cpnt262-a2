@@ -3,6 +3,8 @@
 
 #### by jesse H
 
+### GitHub Pages - https://warjumper.github.io/cpnt262-a2/
+
 #### Code attributions;
 
 - Katherine helped me a ton with debugging some issues (great second set of eyes!) and some JS help.
